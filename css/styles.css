@@ -155,8 +155,8 @@ img {
 #desc {
     color: rgb(255, 81, 183);
     text-align: center;
-    padding-left: 0px;
-    border:rgb(68, 36, 14) solid;
+    padding: 0 15px 15px 15px
+    border: rgb(68, 36, 14) solid;
     background:rgb(49, 26, 11);
 }
 
