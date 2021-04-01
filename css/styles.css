@@ -177,7 +177,13 @@ a:hover,
 /* ================================= 
   Media Queries
 ==================================== */
-@media (max-width: 769px) {
+@media only screen and (max-width: 769px) {
+    
+    * {
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+   
     .main-hdr,
     .main-content,
     .flex {
@@ -192,7 +198,7 @@ a:hover,
         text-align: center;
     }
 }
-@media (min-width: 1025px) {
+@media only screen and (min-width: 1025px) {
     .main-hdr,
     .flex {
         width: 100%;        
