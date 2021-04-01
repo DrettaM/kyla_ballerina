@@ -3,27 +3,22 @@
 ==================================== */
 
 @media only screen and (min-width: 769px) {
-
 	.main-hdr,
 	.menu,
     .flex {
 		display: flex;
         	}
-
 	.main-hdr,
     .flex {
 		flex-direction: row;
 		box-align: center;
 	}
-
     .pic {
         flex: 1 25%;
     }
-
     .flex {
         flex-wrap: wrap;
     }
-
 }
 
 @media only screen and (max-width: 1024px) {
@@ -33,20 +28,16 @@
 }
 
 @media only screen and (min-width: 1025px) {
-
 	.main-hdr,
     .menu,
     .flex {
         flex-direction: row;
 		justify-content: space-between;
 	}
-
     .flex {
         justify-content: center;
     }
-
     .pic {
         flex-basis: 0;
     }
-
-	}
+}
