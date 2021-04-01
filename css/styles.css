@@ -4,7 +4,7 @@
 
 * {
 	box-sizing: border-box;
-    background-color: rgb(252, 205, 212);
+    background-color: rgb(247, 201, 208);
 }
 body {
 	font-family: cursive-script;
@@ -57,20 +57,20 @@ img {
     margin: 0;
 }
 
-.menu {
+.nav {
     margin-top: 5px;
     text-transform: uppercase;
 }
 
 .title a,
-.menu a {
+.nav a {
     display: block;
     padding: 10px;
-    font-size: .95em;
+    font-size: 1em;
     color: rgb(49, 26, 11);
 }
 
-.menu a:hover {
+.nav a:hover {
     color:rgb(243, 11, 185);
 }
 
@@ -173,15 +173,17 @@ a:hover,
     }
     .main-hdr,
     .main-content,
-    .flex {
+    .images {
         width: 90%;
         margin: auto;
     }
     .subtitle {
         font-size: 1.5em;
     }
-    .title,
-    .menu a {
+    .title a,
+    .nav a {
+        color:rgb(252, 247, 249);
+        font-weight: bolder;
         text-align: center;
     }
     #bio {
@@ -191,7 +193,7 @@ a:hover,
 
 @media only screen and (min-width: 1025px) {
     .main-hdr,
-    .flex {
+    .images {
         width: 100%;        
     }
 }

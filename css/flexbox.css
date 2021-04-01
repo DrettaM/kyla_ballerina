@@ -5,19 +5,19 @@
 @media only screen and (min-width: 769px) {
 	.main-hdr,
     
-	.menu,
-    .flex {
+	.nav,
+    .images {
 		display: flex;
         	}
 	.main-hdr,
-    .flex {
+    .images {
 		flex-direction: row;
 		box-align: center;
 	}
     .pic {
         flex: 1 25%;
     }
-    .flex {
+    .images {
         flex-wrap: wrap;
     }
 }
@@ -30,12 +30,12 @@
 
 @media only screen and (min-width: 1025px) {
 	.main-hdr,
-    .menu,
-    .flex {
+    .nav,
+    .images {
         flex-direction: row;
 		justify-content: space-between;
 	}
-    .flex {
+    .images {
         justify-content: center;
     }
     .pic {
