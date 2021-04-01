@@ -74,13 +74,6 @@ img {
     color:rgb(243, 11, 185);
 }
 
-.logo {
-    border: .5px solid rosybrown;
-    border-radius: 50%;
-    padding: 0px;
-    width: 350px;
-}
-
 .name {
     color: white;
     font-size: 4em;
@@ -138,13 +131,6 @@ img {
 
 .performance {
     text-align: center;
-}
-
-.banner {
-    color: #fff;
-    background: rosybrown;
-    padding: 5px 0;
-    margin-bottom: 10px;
 }
 
 .banner,
