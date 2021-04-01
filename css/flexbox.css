@@ -13,22 +13,26 @@
 	.main-hdr,
     .flex {
 		flex-direction: row;
-		align-items: center;
+		box-align: center;
 	}
 
     .pic {
         flex: 1 25%;
-
     }
 
     .flex {
         flex-wrap: wrap;
     }
 
-    
 }
 
-@media only screen and (min-width: 1241px) {
+@media only screen and (max-width: 1024px) {
+    .pic {
+        flex: 1 40%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
 
 	.main-hdr,
     .menu,

@@ -181,7 +181,11 @@ a:hover,
     
     * {
         box-sizing: border-box;
-        background-color: #fff;
+        background-color: lightgray;
+    }
+
+    .banner {
+        background-color: rosybrown;
     }
    
     .main-hdr,
@@ -190,6 +194,7 @@ a:hover,
         width: 90%;
         margin: 10px auto;
     }
+  
     .subtitle {
         font-size: 1.5em;
     }
@@ -198,9 +203,32 @@ a:hover,
         text-align: center;
     }
 }
+
 @media only screen and (min-width: 1025px) {
     .main-hdr,
     .flex {
         width: 100%;        
     }
 }
+
+/* ================================= 
+  Animation
+==================================== */
+.banner,
+.name,
+.subtitle {
+    animation-name: color-morph;
+    animation-duration: 8s;
+}
+@keyframes color-morph {
+    0% {background-color:indianred;}
+    20% {background-color:lightblue;
+        color:rgb(29, 15, 7)}
+    40% {background-color: lavender;
+        color:rgb(29, 15, 7)}
+    60% {background-color: plum;}
+    80% {background-color: coral;}
+    100% {background-color: #cd9575);
+        color:rgb(29, 15, 7)}
+
+
