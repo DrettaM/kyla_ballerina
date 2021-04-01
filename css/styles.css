@@ -90,16 +90,9 @@ img {
 
 .main-content {
     color:rgb(49, 26, 11);
-    height: 275px;
+    height: 400px;
     width: 100%;
     padding: 0 15px 15px 15px;
-}
-
-#more {
-    font-style: italic;
-    border:rgb(49, 26, 11) solid;
-    border-width: thin;
-    background-color: rosybrown;
 }
 
 .subtitle,
@@ -120,6 +113,8 @@ img {
     border-radius: 10%;
     padding: 5px;
     width: 300px;
+    height: 375px;
+    margin-top: 50px;
 }
 
 #thumbnail {
@@ -129,7 +124,12 @@ img {
     width: 100px;
 }
 
+#more {
+    display: none;
+}
+
 .performance {
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -175,7 +175,7 @@ a:hover,
     .main-content,
     .flex {
         width: 90%;
-        margin: 10px auto;
+        margin: auto;
     }
     .subtitle {
         font-size: 1.5em;
@@ -183,6 +183,9 @@ a:hover,
     .title,
     .menu a {
         text-align: center;
+    }
+    #bio {
+        font-size: .95em;
     }
 }
 
