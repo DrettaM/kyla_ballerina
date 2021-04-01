@@ -6,4 +6,6 @@ I have met all of the project requirements. between the flexbox.css and the styl
 
 In terms of the CSS features, I opted to go with Flexbox because it seemed the most logical choice with a mobile-first design. I used CSS to apply animation to the banner section. when the page loads, the animation changes the banner's background color. 
 
-In JavaScript, I made the logo medallion draggable. It's a fun feature that has a lot of implications as I continue to develop the page. The 'read more' button in the main-content section required a tiny bit of JavaScript to work correctly.  
+In JavaScript, I made the logo medallion draggable. It's a fun feature that has a lot of implications as I continue to develop the page. The 'read more' button in the main-content section required a tiny bit of JavaScript to work correctly. 
+
+Tested my page successfully in Chrome, Firefox and Microsoft Edge. My sister loaded my project files on her MacBook and was able to view the page, with full functionality, in Safari.
