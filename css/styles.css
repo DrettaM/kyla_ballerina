@@ -1,3 +1,200 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+    background-color: rgb(252, 205, 212);
+}
+body {
+	font-family: cursive-script;
+	line-height: 1.5;
+	color:rgb(49, 26, 11);
+	margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+	font-size: 1.25em;
+	margin-bottom: 24px;
+    color:rgb(68, 36, 14);
+}
+h1,
+h2,
+h3,
+a {
+	color: #ddd;
+}
+h2,
+h3 {
+	margin-top: 0;
+}
+a {
+	text-decoration: none;
+    color: rgb(29, 15, 7);
+}
+img {
+	max-width: 100%;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.main-hdr {
+    padding: .5em;
+}
+
 .title {
-    color: red;
+    color: rgb(68, 36, 14);
+    font-size: 2.5em;
+    font-style: normal;
+    font-family: cursive-script;
+    margin: 0;
+}
+
+.menu {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.title a,
+.menu a {
+    display: block;
+    padding: 10px;
+    font-size: .95em;
+    color: rgb(49, 26, 11);
+}
+
+.menu a:hover {
+    color:rgb(243, 11, 185);
+}
+
+.logo {
+    border: .5px solid rosybrown;
+    border-radius: 50%;
+    padding: 0px;
+    width: 350px;
+}
+
+.name {
+    color: white;
+    font-size: 4em;
+    font-style: italic;
+    font-family: cursive-script;
+    text-align: center;
+}
+
+.name,
+.subtitle {
+    background-color: rosybrown;
+    padding: 0px;
+}
+
+.main-content {
+    color:rgb(49, 26, 11);
+    height: 275px;
+    width: 100%;
+    padding: 0 15px 15px 15px;
+}
+
+#more {
+    font-style: italic;
+    border:rgb(49, 26, 11) solid;
+    border-width: thin;
+    background-color: rosybrown;
+}
+
+.subtitle,
+.subtitle2{
+    font-weight: bold;
+    font-family: cursive-script;
+}
+
+.subtitle2 {
+    color: rgb(68, 36, 14);
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+#kyla_img {
+    border:rgb(68, 36, 14);
+    border-radius: 10%;
+    padding: 5px;
+    width: 300px;
+}
+
+#thumbnail {
+    border:rgb(68, 36, 14);
+    border-radius: 50%;
+    padding: 2px;
+    width: 100px;
+}
+
+.performance {
+    text-align: center;
+}
+
+.banner {
+    color: #fff;
+    background: rosybrown;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.banner,
+.main-ftr {
+    text-align: center;
+}
+
+#desc {
+    color: rgb(255, 81, 183);
+    text-align: center;
+    padding-left: 0px;
+    border:rgb(68, 36, 14) solid;
+    background:rgb(49, 26, 11);
+}
+
+a:hover,
+#desc:hover {
+    color:rgb(252, 246, 250);
+}
+
+.main-ftr {
+    padding: 2em 0;
+    margin-top: 48px;
+}
+
+.pic {
+    padding: 1em;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (max-width: 769px) {
+    .main-hdr,
+    .main-content,
+    .flex {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .subtitle {
+        font-size: 1.5em;
+    }
+    .title,
+    .menu a {
+        text-align: center;
+    }
+}
+@media (min-width: 1025px) {
+    .main-hdr,
+    .flex {
+        width: 100%;        
+    }
 }
