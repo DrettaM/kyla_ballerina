@@ -1,8 +1,8 @@
 /* ================================= 
-  Media Queries
+  Flex box and Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media only screen and (min-width: 769px) {
 
 	.main-hdr,
 	.menu,
@@ -28,7 +28,7 @@
     
 }
 
-@media (min-width: 1025px) {
+@media only screen and (min-width: 1025px) {
 
 	.main-hdr,
     .menu,
